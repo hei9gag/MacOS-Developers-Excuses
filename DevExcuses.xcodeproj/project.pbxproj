@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		241F01FA0BFC50E2D06A6568 /* libPods-devexcuses-DevexcusesTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7239B59036FBDC9BED38B3E8 /* libPods-devexcuses-DevexcusesTest.a */; };
-		6166270BC30A7670329D31CD /* libPods-DevexcusesTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 235CD2DE50CF5D60EEA290AF /* libPods-DevexcusesTest.a */; };
 		7B480B4C223254820019EB07 /* DevexcusesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B480B4B223254820019EB07 /* DevexcusesTest.swift */; };
 		7B480B52223254C00019EB07 /* UnsplashClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B480B51223254C00019EB07 /* UnsplashClientTest.swift */; };
 		7B480B67223264530019EB07 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71262FB2080FF78006D94DA /* User.swift */; };
@@ -33,7 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		235CD2DE50CF5D60EEA290AF /* libPods-DevexcusesTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DevexcusesTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C93E4E9697D42766097BFE /* Pods-devexcuses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devexcuses.release.xcconfig"; path = "Pods/Target Support Files/Pods-devexcuses/Pods-devexcuses.release.xcconfig"; sourceTree = "<group>"; };
 		3E863DF3A0B23534EF450EF5 /* Pods-DevexcusesTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevexcusesTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DevexcusesTest/Pods-DevexcusesTest.release.xcconfig"; sourceTree = "<group>"; };
 		539D1BC2C6EE6F55F52398E0 /* Pods-devexcuses-DevexcusesTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devexcuses-DevexcusesTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-devexcuses-DevexcusesTest/Pods-devexcuses-DevexcusesTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,7 +40,6 @@
 		7B480B4B223254820019EB07 /* DevexcusesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevexcusesTest.swift; sourceTree = "<group>"; };
 		7B480B4D223254820019EB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B480B51223254C00019EB07 /* UnsplashClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashClientTest.swift; sourceTree = "<group>"; };
-		A2680B78518C1AF55F934501 /* libPods-devexcusestest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-devexcusestest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58DB4D36B5F52A24E6ED461 /* Pods-devexcuses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devexcuses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devexcuses/Pods-devexcuses.debug.xcconfig"; sourceTree = "<group>"; };
 		ADAB50A2F0A56B20D37C93A0 /* libPods-devexcuses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-devexcuses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70963302081BDD8006B381C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -70,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6166270BC30A7670329D31CD /* libPods-DevexcusesTest.a in Frameworks */,
 				241F01FA0BFC50E2D06A6568 /* libPods-devexcuses-DevexcusesTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,8 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				ADAB50A2F0A56B20D37C93A0 /* libPods-devexcuses.a */,
-				A2680B78518C1AF55F934501 /* libPods-devexcusestest.a */,
-				235CD2DE50CF5D60EEA290AF /* libPods-DevexcusesTest.a */,
 				7239B59036FBDC9BED38B3E8 /* libPods-devexcuses-DevexcusesTest.a */,
 			);
 			name = Frameworks;
